@@ -1,0 +1,41 @@
+article p {
+    background: pink;
+    color: blueviolet;
+    padding: 20xp;
+}
+/* child */
+article > p {
+    background-color: lightpink;
+    padding: 20px;
+}
+article + p {
+    background-color: pink;
+    padding: 20px;
+}
+article {
+      background-color: blue;
+    padding: 20px;
+}
+h3:first-of-type{
+    color: blueviolet;
+
+
+}
+input:in-range {
+  border: 3px solid purple 
+}
+input:out-range {
+border: 3px solid purple
+}
+input:required{
+    background-color: blueviolet;
+}
+input:focus{
+    background-color: blueviolet;
+}
+p ::first-line{
+    color: blue;
+}
+p ::first-letter{
+    color: blue;
+}
