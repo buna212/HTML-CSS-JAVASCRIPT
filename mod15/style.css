@@ -1,0 +1,17 @@
+div#static{
+    position: static;
+    border: 3px solid hotpink;
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+}
+
+div#relative{
+    position: relative;
+    border: 3px solid hotpink;
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+    right: 500px;
+    left: 450px;
+}
