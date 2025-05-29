@@ -1,0 +1,36 @@
+div .gallery{
+    margin: 5px;
+    border: 1px rgb(198, 135, 201);
+    float: left;
+    width: 180px;
+}
+div .gallery:hover{
+    border: 3px solid plum;
+}
+div .gallery img{
+    width: 100%;
+    height: auto;
+}
+div .desc{
+    padding: 15px;
+    text-align: center;
+}
+.sprite{
+    background: url("../images/houses.png")
+}
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0 0 ;
+}
+ p[class*="ds"]{
+    background-color: blueviolet;
+    color: aqua;
+    padding: 20px;
+ }
+ p[class~="ds"]{
+    background-color: antiquewhite;
+    color: rgb(95, 160, 216);
+    padding: 20px;
+ }
