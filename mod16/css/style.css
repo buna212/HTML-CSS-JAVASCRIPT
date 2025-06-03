@@ -34,3 +34,6 @@ div .desc{
     color: rgb(95, 160, 216);
     padding: 20px;
  }
+ img[title^="blue"]{
+    border: 2px solid #aa4f72;
+ }
