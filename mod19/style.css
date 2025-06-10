@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+}
+. .container div {
+    background-color: blueviolet;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(115, 69, 221);
+}
+.container div:nth-child(1){
+ order: 2;
+}
+.container div:nth-child(2){
+ order: 3;
+}
+.container div:nth-child(3){
+ order: 0;
+}
+.container2{
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: row-reverse;
+}
+ .containerdiv2{
+    background-color: blueviolet;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(115, 69, 221);
+}
+.container3{
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: row;
+}
+ .containerdiv3{
+    background-color: blueviolet;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(115, 69, 221);
+}
+.container3 div:nth-child(1){
+    flex-grow: 4;
+}
+
+.container4{
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ .containerdiv4{
+    background-color: blueviolet;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(115, 69, 221);
+}
+
+.containerdiv5{
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ .containerdiv5{
+    background-color: blueviolet;
+    margin: 16px;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(115, 69, 221);
+}
+
+.container5 div:nth-child(2){
+    height: 50;
+}
+
+.container5 div:nth-child(2){
+    height: 100px;
+}
+
+.container5 div:nth-child(4){
+    height: 130px;
+}
+
