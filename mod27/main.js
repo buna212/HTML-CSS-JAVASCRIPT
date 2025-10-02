@@ -44,11 +44,11 @@ kerri.startEngine()
 
 var computer = new Object();
 computer.name-"lenovo";
-computer.CPU="Inter Core i7";
-computer.GPU = "GeForce 4080";
+computer.cpu="Inter Core i7";
+computer.gpu = "GeForce 4080";
 
 computer.type = function(){
-    return name+this.CPU+this.RAM+this.GPU;
+    return name+this.cpu+this.ram+this.gpu;
 };
  
 console.log(computer.type());
