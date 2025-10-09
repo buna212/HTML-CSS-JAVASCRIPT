@@ -30,3 +30,6 @@ var text1=document.getElementById("text1");
 btn1. onclick = function (){
     text1.style.color="pink"
 }
+btn1. onclick = function (){
+    text1.setAttribute
+}
